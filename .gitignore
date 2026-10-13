@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# TensorFlow / ML artifacts
+*.keras
+*.h5
+
+# TFLite Micro upstream source
+tflite_micro/tflite-micro/
+
+# TFLite Micro build output
+tflite_micro/tflite-micro/gen/
+tflite_micro/tflite-micro/tensorflow/lite/micro/tools/make/gen/
+
+# Local compiled executable
+tflite_micro/f1_inference.exe
+
+# Temporary verification files
+results/cpp_verification_inputs.csv
+
+# OS / IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# TFLite Micro source checkout and build artifacts
+tflite_micro/tflite-micro/
+tflite_micro/gen/
+tflite_micro/*.exe
+tflite_micro/*.a
+f1_inference.exe
