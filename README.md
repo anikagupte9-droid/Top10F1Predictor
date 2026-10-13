@@ -1,4 +1,4 @@
-@'
+
 # F1Predictor
 
 ### Lightweight Formula 1 Top-10 Prediction with Edge AI Deployment
